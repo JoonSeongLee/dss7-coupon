@@ -103,4 +103,8 @@ ENV/
 # DS_Store
 *.DS_Store
 .DS_Store
+
 data/*
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
