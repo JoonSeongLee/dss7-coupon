@@ -104,7 +104,9 @@ ENV/
 *.DS_Store
 .DS_Store
 
+# except data for capacity problem
 data/*
 
+# except ipython checkpoints
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
