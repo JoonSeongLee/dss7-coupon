@@ -55,5 +55,5 @@ def user_vp_coupon_pref():
     return pd.merge(uvp, coupon_pref(), left_on='VIEW_COUPON_ID_hash',right_on='COUPON_ID_hash')
 
 def user_vp_coupon_area_pref():
-    uvp = uvp = pd.merge(user(),view_purchase(), on='USER_ID_hash')
+    uvp = pd.merge(user(),view_purchase(), on='USER_ID_hash')
     return pd.merge(uvp, coupon_area_pref(), left_on='VIEW_COUPON_ID_hash',right_on='COUPON_ID_hash')
